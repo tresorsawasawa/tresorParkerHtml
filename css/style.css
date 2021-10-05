@@ -5,6 +5,7 @@
   background: rgba(96, 90, 90, 0.2);
   width: 100vw;
   padding: 0;
+  color: black;
 }
 
 nav ul {
@@ -12,6 +13,8 @@ nav ul {
   justify-content: space-between;
   margin: 10px;
   font-size: 30px;
+  text-decoration: none;
+  color: black;
 }
 
 #welcome-section {
@@ -22,4 +25,21 @@ nav ul li {
   list-style: none;
   text-decoration: none;
   margin: 10px;
+}
+#projects {
+  padding: 10rem 10rem;
+}
+
+h1 {
+  color: rgb(25, 67, 70);
+}
+
+a {
+  text-decoration: none;
+  color: black;
+  border-bottom: green 3px solid;
+}
+
+nav h2 {
+  color: red;
 }
